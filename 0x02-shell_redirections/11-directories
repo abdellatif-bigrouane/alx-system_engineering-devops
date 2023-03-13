@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d | cw -l
+find . -mindepth -type d | cw -l
